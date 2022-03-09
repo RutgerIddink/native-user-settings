@@ -1,6 +1,6 @@
 {
   "name": "@rutgeriddink/native-user-settings",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Access native settings",
   "main": "nativeusersettings.js",
   "dependencies": {
