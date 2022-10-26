@@ -23,6 +23,9 @@
         "<!@(node -p \"require('node-addon-api').include\")"
       ],
       'defines': [ 'NAPI_DISABLE_CPP_EXCEPTIONS' ],
+      "msvs_settings": {
+        "VCCLCompilerTool": { "AdditionalOptions": ["/std:c++17" ] }
+      }
     }
   ]
 }
