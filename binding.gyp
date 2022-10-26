@@ -2,8 +2,14 @@
   "targets": [
     {
       "target_name": "nativeusersettings",
-      "cflags!": [ "-fno-exceptions" ],
-      "cflags_cc!": [ "-fno-exceptions" ],
+      "cflags!": [
+        "-fno-exceptions",
+        "-std=c++17"
+      ],
+      "cflags_cc!": [
+        "-fno-exceptions",
+        "-std=c++17"
+      ],
       "sources": [ "nativeusersettings.cc" ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")"
